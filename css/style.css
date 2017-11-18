@@ -1,0 +1,79 @@
+
+body
+{
+  background-image: url("../images/bg.jpg");
+  background-repeat:repeat;
+}
+.parent
+{
+  width: 100%;
+  height: 100%;
+  padding-top: 100px;
+}
+.container
+{
+  width:  600px;
+  height: 400px;
+  background-image: url("../images/container-bg.jpg");
+  background-repeat:repeat;
+  border: 10px solid #ffffff;
+  padding: 50px;
+}
+.gamearea
+{
+  width: 100%;
+  height: 100%;
+  display:none;
+  position: relative;
+}
+.board
+{
+  width: 400px;
+  height: 400px;
+  background-image: url("../images/board.jpg");
+}
+.logo
+{
+  width:200px;
+  height:80px;
+  background-image: url("../images/logo.png");
+}
+.score
+{
+  width:200px;
+  height:200px;
+  background-image: url("../images/score.jpg");
+  background-size: 100%;
+}
+.score h2
+{
+  color: #ffffff;
+}
+.score span
+{
+  font-size: 40pt;
+  color: #cceecc;
+}
+.restart
+{
+  width: 100px;
+  height: 32px;
+  background-image: url("../images/restart.gif");
+  background-size: 100%;
+}
+.cursor
+{
+  border: 5px solid #cccc00;
+  position: absolute;
+}
+.card
+{
+  position: absolute;
+  background-image: url("../images/card_bg.gif");
+  background-size: 100%;
+}
+.flippedcard
+{
+	position: absolute;
+	background-size: 100%;
+}
